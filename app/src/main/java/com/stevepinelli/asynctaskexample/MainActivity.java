@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 int time = Integer.parseInt(params[0])*1000;
 
                 Thread.sleep(time);
-                resp = "Slept for " + params[0] + " seconds";
+                resp = "Slept for:  " + params[0] + " seconds";
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 resp = e.getMessage();
